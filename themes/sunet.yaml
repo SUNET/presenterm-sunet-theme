@@ -1,0 +1,146 @@
+---
+default:
+  margin:
+    percent: 8
+  colors:
+    foreground: black
+    # Use with a white terminal to best handle transparent pictures
+    background: null
+
+slide_title:
+  alignment: center
+  padding_bottom: 1
+  padding_top: 1
+  colors:
+    foreground: "f77f00"
+  bold: true
+
+code:
+  alignment: center
+  minimum_size: 50
+  minimum_margin:
+    percent: 8
+  theme_name: GitHub
+  padding:
+    horizontal: 2
+    vertical: 1
+
+execution_output:
+  colors:
+    foreground: "212529"
+    background: "e9ecef"
+  status:
+    running:
+      foreground: "457b9d"
+    success:
+      foreground: "52b788"
+    failure:
+      foreground: "f07167"
+    not_started:
+      foreground: "f77f00"
+
+inline_code:
+  colors:
+    foreground: "f07167"
+    background: "f5cac3"
+
+intro_slide:
+  title:
+    alignment: center
+    colors:
+      foreground: "E37426"
+    font_size: 2
+  subtitle:
+    alignment: center
+    colors:
+      foreground: black
+  event:
+    alignment: center
+    colors:
+      foreground: black
+  location:
+    alignment: center
+    colors:
+      foreground: black
+  date:
+    alignment: center
+    colors:
+      foreground: black
+  author:
+    alignment: center
+    colors:
+      foreground: black
+    positioning: page_bottom
+  footer: false
+
+headings:
+  h1:
+    prefix: "██"
+    colors:
+      foreground: black
+  h2:
+    prefix: "▓▓▓"
+    colors:
+      foreground: "707070"
+  h3:
+    prefix: "▒▒▒▒"
+    colors:
+      foreground: "B3B3B3"
+  h4:
+    prefix: "░░░░░"
+    colors:
+      foreground: "B3B3B3"
+  h5:
+    prefix: "░░░░░░"
+    colors:
+      foreground: "B3B3B3"
+  h6:
+    prefix: "░░░░░░░"
+    colors:
+      foreground: "B3B3B3"
+
+block_quote:
+  prefix: "▍ "
+  colors:
+    foreground: "212529"
+    background: "e9ecef"
+    prefix: "f77f00"
+
+alert:
+  prefix: "▍ "
+  base_colors:
+    foreground: "212529"
+    background: "e9ecef"
+  styles:
+    note:
+      color: "1e66f5"
+    tip:
+      color: "40a02b"
+    important:
+      color: "8839ef"
+    warning:
+      color: "df8e1d"
+    caution:
+      color: "d20f39"
+
+typst:
+  colors:
+    foreground: "212529"
+    background: "e9ecef"
+
+footer:
+  style: template
+  # Let's keep this "left" until
+  # https://github.com/mfontanini/presenterm/issues/549
+  # is fixed
+  left:
+    image: ../assets/sunet/sunet.png
+  height: 5
+
+modals:
+  selection_colors:
+    foreground: "f77f00"
+
+mermaid:
+  background: transparent
+  theme: default
