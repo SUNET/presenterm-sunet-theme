@@ -130,10 +130,7 @@ typst:
 
 footer:
   style: template
-  # Let's keep this "left" until
-  # https://github.com/mfontanini/presenterm/issues/549
-  # is fixed
-  left:
+  right:
     image: ../assets/sunet/sunet.png
   height: 5
 
